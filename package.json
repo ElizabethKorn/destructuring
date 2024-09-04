@@ -1,0 +1,31 @@
+{
+  "name": "destructuring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElizabethKorn/destructuring.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElizabethKorn/destructuring/issues"
+  },
+  "homepage": "https://github.com/ElizabethKorn/destructuring#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.38.1",
+    "eslint": "^8.57.0"
+  }
+}
